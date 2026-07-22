@@ -7,7 +7,7 @@ for(int i = 0 ; i< array.length;i++){
 
 }
     public static void main(String[] args) {
-
+//bubble sort
 int array[]= {5,3,2,1,2,3,5,6,7,5};
 for(int i = 0 ; i<array.length-1;i++){
 

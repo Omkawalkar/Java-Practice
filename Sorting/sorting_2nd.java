@@ -5,7 +5,7 @@ public class sorting_2nd {
     public static void main(String[] args) {
         
 int array[]={7,8,3,1,2};
-
+//selection sort
 for(int i = 0 ; i< array.length-1;i++){
 
     int smallest = i ;
@@ -20,6 +20,8 @@ smallest = j;
     array[smallest]=array[i];
     array[i]=temp;
 }
+
+
 
 for(int i = 0 ; i< array.length;i++){
     System.out.print(array[i]);
