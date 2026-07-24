@@ -15,7 +15,7 @@ public class recursion_2nd {
         
 
         sumfunction(i + 1, n, sum);
-        System.out.println(i);
+        
     }
 
     public static void main(String[] args) {
