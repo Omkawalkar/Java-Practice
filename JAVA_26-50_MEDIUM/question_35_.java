@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class question_35_ {
     public static int countDigits(int n) {

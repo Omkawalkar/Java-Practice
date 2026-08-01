@@ -4,7 +4,7 @@ public class sorting_4th {
 
         // Bubble Sort in Ascending Order
 
-        int array[] = {5, 3, 8, 1, 2};
+        int array[] = { 5, 3, 8, 1, 2 };
 
         for (int i = 0; i < array.length - 1; i++) {
 
