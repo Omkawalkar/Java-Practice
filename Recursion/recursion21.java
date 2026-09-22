@@ -9,6 +9,7 @@ public class recursion21 {
         }
 
         power = power * n;
+        System.out.println(power);
         power(i + 1, n, p, power);
 
     }
