@@ -1,23 +1,23 @@
-public class Recursion_1st{
+import java.util.Scanner;
+public class Recursion_1st {
+    public static void Recursion(int n,int e){
 
-    public static void recursion(int n){
-        if(n == 10){
- System.out.println(n);
-            return ;
-        
+        if(n==e){
+System.out.println(n);
+            return;
         }
-           
         System.out.println(n);
-
-        recursion(n+1);
-
+        Recursion(n+1, e);
 
     }
+
     public static void main(String[] args) {
-        int n = 1 ;
+        Scanner sc= new Scanner(System.in);
+System.out.println("Enter number");
+        int e = sc.nextInt();
+        int n =1 ;
 
-        recursion(n);
-
+Recursion(n, e);
 
 
     }
