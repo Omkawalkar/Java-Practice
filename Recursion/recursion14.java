@@ -1,4 +1,4 @@
-public class recurssion14 {
+public class recursion14 {
 
     public static int power(int x, int n) {
         if (n == 0) {

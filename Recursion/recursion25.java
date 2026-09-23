@@ -1,28 +1,44 @@
 
-public class recurssion15 {
+import java.util.Scanner;
+public class recursion25 {
 
-    public static int factorial(int n) {
-
-        // Base condition
-        if (n == 0 || n == 1) {
-            return 1;
-        }
-
-        // Recursive call
-        int fmq = factorial(n - 1);
-
-        // Calculate factorial
-        int fm2 = n * fmq;
-
-        return fm2;
+public static int reverse(int n , int rev){
+    if( n == 0){
+        return rev;
     }
 
+    int digit = n %10;
+    rev = rev * 10 + digit;
+    return reverse(n /10, rev);
+}
+
+public static void palendrome(int reverse,int n){
+
+    if(n == reverse){
+        System.out.println("given number "+ n + "is palendrome");
+    }
+    else{
+        System.out.println("given number "+ n +" is not palendrome");
+    }
+
+    
+}
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" Check Number Is Palendrome Or Not");
+System.out.println("Enter number");
+int n = sc.nextInt();
 
-        int n = 5;
 
-        int result = factorial(n);
+int reverse = reverse(n, 0);
+System.out.println("reverse number is "+reverse);
 
-        System.out.println("Factorial of " + n + " = " + result);
+
+palendrome(reverse, n);
+
+
+
+
+
     }
 }
