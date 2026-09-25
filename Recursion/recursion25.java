@@ -1,5 +1,5 @@
 
-public class recurssion15 {
+public class recursion25 {
 
     public static int factorial(int n) {
 
